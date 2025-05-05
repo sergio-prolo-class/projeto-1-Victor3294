@@ -1,0 +1,57 @@
+.container-secao-sobremim {
+    background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(224, 213, 213, 1) 69%, rgba(117, 115, 115, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    width: 100%;
+}
+
+.container-texto-mais-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1em;
+}
+
+.lista-mais-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    list-style: none;
+}
+
+.container-mais-sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    width: 90%;
+}
+
+.container-secao-sobremim2 {
+    background: linear-gradient(360deg, rgba(117, 115, 115, 1) 0%, rgba(224, 213, 213, 1) 29%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.container-lista-de-interesses-pessoais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    width: 100%;
+}
+
+.container-item-da-lista-de-interesses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
