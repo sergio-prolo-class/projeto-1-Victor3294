@@ -30,6 +30,12 @@
     width: 90%;
 }
 
+.imagem-mais-sobre-mim{    
+    height: 20%;
+    width: 37%;
+    border-radius: 10px;
+}
+
 .container-secao-sobremim2 {
     background: linear-gradient(360deg, rgba(117, 115, 115, 1) 0%, rgba(224, 213, 213, 1) 29%, rgba(255, 255, 255, 1) 100%);
     display: flex;
