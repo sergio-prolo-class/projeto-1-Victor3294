@@ -1,12 +1,16 @@
+h1 {
+    font-size: 50px;
+}
+
 .container-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2em;
-    padding: 2em;
 }
 
 .container-secao-cursando-atualmente{
+    background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(224, 213, 213, 1) 69%, rgba(117, 115, 115, 1) 100%);
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -24,8 +28,11 @@
 .container-item-disciplinas-cursadas{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     border: 1px solid #000;
-    border-radius: 0.5em;
+    width: 25%;
+    border-radius: 8px;
     padding: 0.35em;
 }
 
@@ -37,7 +44,21 @@
     gap: 0.75em;
 }
 
+.status-item-disciplina{
+    width: 40%;
+    border: none;
+    color: #f1eeee;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(13, 108, 231);
+}
+
+.completa {
+    background-color: green;
+}
+
 .container-outras-experiencias-educacionais{
+    background: linear-gradient(360deg, rgba(117, 115, 115, 1) 0%, rgba(224, 213, 213, 1) 29%, rgba(255, 255, 255, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,4 +73,30 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1em;
+}
+
+.cotnainer-item-outras-experiencias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 50%;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.cotnainer-item-outras-experiencias-texto {
+    padding: 0.5em;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.imagem-item-outras-experiencias {
+    height: 100%;
+    width: 40%;
+    border-radius: 16px;
 }
