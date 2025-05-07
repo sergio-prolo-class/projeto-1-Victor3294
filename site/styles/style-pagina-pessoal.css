@@ -19,6 +19,9 @@ main {
 }
 
 .lista-mais-sobre-mim {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0.5em;
     display: flex;
     flex-direction: column;
     gap: 0.25em;
@@ -29,7 +32,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5em;
+    gap: 2em;
     width: 90%;
 }
 
@@ -72,6 +75,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 0.95em;
     height: 100%;
     text-align: center;
     overflow-y: hidden;
@@ -82,4 +86,62 @@ main {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+/*responsividade do site*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-mais-sobre-mim{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem-mais-sobre-mim{
+        width: 60vw;
+        height: 10%;
+    }
+    .container-texto-mais-sobre-mim{
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .lista-mais-sobre-mim{
+        justify-content: center;
+        height: 80px;
+    }
+    .container-item-da-lista-de-interesses{
+        height: 11.5em;
+        width: 80%;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagem-mais-sobre-mim{
+        display: none;
+    }
+
+    .container-texto-mais-sobre-mim{
+        text-align: center;
+        align-items: center;
+    }
+
+    .container-secao-sobremim2{
+        padding: 1em;
+    }
+
+    .container-item-da-lista-de-interesses{
+        height: 11.5em;
+        width: 100%;
+        gap: 1em;
+    }
+
+    .container-texto-item-lista-interesses{
+        font-size: 0.70em;
+        overflow: scroll;
+    }
+
+    .imagem-item-lista-de-interesses{
+        width: 50%;
+    }
 }
