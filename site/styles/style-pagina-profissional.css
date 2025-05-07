@@ -1,0 +1,33 @@
+.container-secao-lista-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    padding-top: 200px;
+    margin-bottom: 0.5em;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(224, 213, 213, 1) 69%, rgba(117, 115, 115, 1) 100%);
+}
+
+.container-item-lista-projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 2em;
+    gap: 0.5em;
+    width: 40%;
+}
+
+.container-secao-experiencias-profissionais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2em;
+    margin-top: 1em;
+    background: linear-gradient(360deg, rgba(117, 115, 115, 1) 0%, rgba(224, 213, 213, 1) 29%, rgba(255, 255, 255, 1) 100%);
+}

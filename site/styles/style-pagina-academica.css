@@ -51,6 +51,12 @@ h1 {
     font-weight: bold;
     border-radius: 8px;
     background-color: rgb(13, 108, 231);
+    transition: 0.75s;
+}
+
+.status-item-disciplina:hover{
+    
+    font-size: 1.25em;
 }
 
 .completa {

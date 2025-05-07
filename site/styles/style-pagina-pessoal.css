@@ -59,14 +59,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 45%;
     height: 11em;
     padding-left: 0.5em;
     border: 1px solid #000;
-    border-radius: 0.40em;
+    border-radius: 10px;
+}
+
+.container-texto-item-lista-interesses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    overflow-y: hidden;
+
 }
 
 .imagem-item-lista-de-interesses {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
