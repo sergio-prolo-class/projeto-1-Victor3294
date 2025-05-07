@@ -1,0 +1,144 @@
+main h1 {
+    font-size: 50px;
+}
+
+.container-main {
+    background: linear-gradient(360deg,rgba(117, 115, 115, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(117, 115, 115, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.container-secao-cursando-atualmente{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    justify-content: space-around;
+}
+
+.container-cursando-atualmente{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 2.5em;
+    gap: 1.5em;
+}
+
+.imagem-cursando-atualmente{
+    border-radius: 8px;
+    box-shadow: 4.5px 4.5px #000;
+}
+
+.container-texto-cursando-atualmente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.container-texto-cursando-atualmente dl {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.25em;
+}
+
+.container-cursando-atualmente dt {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+
+.container-item-disciplinas-cursadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000;
+    width: 25%;
+    border-radius: 8px;
+    padding: 0.35em;
+}
+
+.container-lista-disciplinas-cursadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+}
+
+.status-item-disciplina{
+    width: 40%;
+    border: none;
+    color: #f1eeee;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(13, 108, 231);
+    transition: 0.75s;
+}
+
+.status-item-disciplina:hover{
+    
+    font-size: 1.25em;
+}
+
+.completa {
+    background-color: green;
+}
+
+.container-outras-experiencias-educacionais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.container-lista-outras-experiencias {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.cotnainer-item-outras-experiencias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 50%;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.cotnainer-item-outras-experiencias-texto {
+    padding: 0.5em;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    width: 60%;
+}
+
+.cotnainer-item-outras-experiencias-texto ul {
+    list-style: none;
+}
+
+.imagem-item-outras-experiencias {
+    height: 100%;
+    width: 40%;
+    border-radius: 16px;
+}

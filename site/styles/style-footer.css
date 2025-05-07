@@ -1,0 +1,25 @@
+.rodape {
+    display: flex;
+    background-color: #757373;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.25em;
+    padding: 1em;
+}
+
+.rodape-contato {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;    
+}
+
+@media (max-width:480px) {
+    .rodape{
+        font-size: 0.90em;
+    }
+}

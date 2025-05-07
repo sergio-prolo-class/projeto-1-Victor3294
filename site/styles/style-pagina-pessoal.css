@@ -1,0 +1,147 @@
+main {
+    background: linear-gradient(360deg,rgba(117, 115, 115, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(117, 115, 115, 1) 100%);
+}
+
+.container-secao-sobremim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    width: 100%;
+}
+
+.container-texto-mais-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1em;
+}
+
+.lista-mais-sobre-mim {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    list-style: none;
+}
+
+.container-mais-sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 90%;
+}
+
+.imagem-mais-sobre-mim{    
+    height: 20%;
+    width: 37%;
+    border-radius: 10px;
+}
+
+.container-secao-sobremim2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.container-lista-de-interesses-pessoais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    width: 100%;
+}
+
+.container-item-da-lista-de-interesses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 11em;
+    padding-left: 0.5em;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.container-texto-item-lista-interesses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.95em;
+    height: 100%;
+    text-align: center;
+    overflow-y: hidden;
+
+}
+
+.imagem-item-lista-de-interesses {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*responsividade do site*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container-mais-sobre-mim{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem-mais-sobre-mim{
+        width: 60vw;
+        height: 10%;
+    }
+    .container-texto-mais-sobre-mim{
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .lista-mais-sobre-mim{
+        justify-content: center;
+        height: 80px;
+    }
+    .container-item-da-lista-de-interesses{
+        height: 11.5em;
+        width: 80%;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagem-mais-sobre-mim{
+        display: none;
+    }
+
+    .container-texto-mais-sobre-mim{
+        text-align: center;
+        align-items: center;
+    }
+
+    .container-secao-sobremim2{
+        padding: 1em;
+    }
+
+    .container-item-da-lista-de-interesses{
+        height: 11.5em;
+        width: 100%;
+        gap: 1em;
+    }
+
+    .container-texto-item-lista-interesses{
+        font-size: 0.70em;
+        overflow: scroll;
+    }
+
+    .imagem-item-lista-de-interesses{
+        width: 50%;
+    }
+}
