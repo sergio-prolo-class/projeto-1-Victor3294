@@ -1,5 +1,8 @@
+main {
+    background: linear-gradient(360deg,rgba(117, 115, 115, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(117, 115, 115, 1) 100%);
+}
+
 .container-secao-sobremim {
-    background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(224, 213, 213, 1) 69%, rgba(117, 115, 115, 1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +40,6 @@
 }
 
 .container-secao-sobremim2 {
-    background: linear-gradient(360deg, rgba(117, 115, 115, 1) 0%, rgba(224, 213, 213, 1) 29%, rgba(255, 255, 255, 1) 100%);
     display: flex;
     justify-content: center;
     flex-direction: column;
