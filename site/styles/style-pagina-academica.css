@@ -55,6 +55,13 @@ main h1 {
     font-size: 1.15em;
 }
 
+.container-lista-disciplinas-cursadas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+}
 
 .container-item-disciplinas-cursadas{
     display: flex;
@@ -65,14 +72,6 @@ main h1 {
     width: 25%;
     border-radius: 8px;
     padding: 0.35em;
-}
-
-.container-lista-disciplinas-cursadas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.75em;
 }
 
 .status-item-disciplina{
@@ -86,7 +85,6 @@ main h1 {
 }
 
 .status-item-disciplina:hover{
-    
     font-size: 1.25em;
 }
 
@@ -141,4 +139,60 @@ main h1 {
     height: 100%;
     width: 40%;
     border-radius: 16px;
+}
+
+/*responsividade*/
+
+@media (min-width:768px) and (max-width:1024px) {
+    .container-secao-cursando-atualmente{
+        padding-top: 1.75em;
+    }
+    
+    .container-cursando-atualmente{
+        flex-direction: column;
+        width: 80%;
+        padding: 1.5em;
+    }
+
+    .imagem-cursando-atualmente {
+        width: 100%;
+    }
+
+    .container-item-disciplinas-cursadas{
+        width: 40%;
+    }
+    
+    .cotnainer-item-outras-experiencias{
+        width: 80%;
+    }
+
+    .cotnainer-item-outras-experiencias-texto{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:480px) {
+    .container-cursando-atualmente{
+        flex-direction: column;
+        width: 80%;
+        padding: 1.5em;
+    }
+
+    .imagem-cursando-atualmente {
+        width: 100%;
+    }
+
+    .container-item-disciplinas-cursadas{
+        font-size: 0.85em;
+        width: 45%;
+    }
+    
+    .imagem-item-outras-experiencias {
+        display: none;
+    }
+
+    .cotnainer-item-outras-experiencias{
+        width: 45%;
+    }
 }
