@@ -21,9 +21,40 @@ main h1 {
 
 .container-cursando-atualmente{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 2.5em;
     gap: 1.5em;
 }
+
+.imagem-cursando-atualmente{
+    border-radius: 8px;
+    box-shadow: 4.5px 4.5px #000;
+}
+
+.container-texto-cursando-atualmente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.container-texto-cursando-atualmente dl {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.25em;
+}
+
+.container-cursando-atualmente dt {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
 
 .container-item-disciplinas-cursadas{
     display: flex;
