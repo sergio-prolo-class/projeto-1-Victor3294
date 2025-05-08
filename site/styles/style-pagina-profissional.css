@@ -48,3 +48,28 @@ main {
     width: 50%;
     border-radius: 8px;
 }
+
+/*responsividade*/
+
+@media (min-width:768px) and (max-width:1024px) {
+    .container-item-lista-projetos{
+        height: 500px;
+        width: 80%;
+    }
+
+    .imagem-lista-projetos {
+        width: 80%;
+    }
+
+}
+
+@media (max-width:480px) {
+    .container-item-lista-projetos{
+        height: 500px;
+        width: 80%;
+    }
+
+    .imagem-lista-projetos {
+        width: 90%;
+    }
+}
