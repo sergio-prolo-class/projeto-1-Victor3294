@@ -63,10 +63,10 @@ main {
 
 }
 
-@media (max-width:480px) {
+@media (max-width:767px) {
     .container-item-lista-projetos{
-        height: 500px;
-        width: 80%;
+        height: 600px;
+        width: 100%;
     }
 
     .imagem-lista-projetos {

@@ -1,6 +1,7 @@
 # Portfólio Pessoal
 
 Este repositório contém um portfólio desenvolvido utilizando apenas **HTML** e **CSS**, com o objetivo de apresentar informações pessoais, trajetória acadêmica e carreira profissional.
+Esse site é adequado para uso no google chrome
 
 ## 🖥️ Tecnologias Utilizadas
 
