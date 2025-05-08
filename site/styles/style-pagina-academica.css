@@ -1,5 +1,10 @@
 main h2 {
     font-size: 50px;
+    text-align: center;
+}
+
+.container-texto-cursando-atualmente h3{
+    font-size: 30px;
 }
 
 .container-main {
@@ -171,6 +176,14 @@ main h2 {
 }
 
 @media (max-width:480px) {
+    main h2 {
+        font-size: 40px;
+    }
+
+    .container-texto-cursando-atualmente h3 {
+        font-size: 25px;
+    }
+
     .container-cursando-atualmente{
         flex-direction: column;
         width: 80%;
