@@ -42,3 +42,9 @@ main {
     color: #fff;
     background-color: rgb(13, 108, 231);;
 }
+
+.imagem-lista-projetos {
+    height: 50%;
+    width: 50%;
+    border-radius: 8px;
+}

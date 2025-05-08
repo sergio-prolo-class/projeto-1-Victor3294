@@ -170,7 +170,7 @@ main h1 {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:480px) {
     .container-cursando-atualmente{
         flex-direction: column;
         width: 80%;

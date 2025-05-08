@@ -18,7 +18,7 @@
     gap: 0.5em;    
 }
 
-@media (max-width:767px) {
+@media (max-width:480px) {
     .rodape{
         font-size: 0.90em;
     }
